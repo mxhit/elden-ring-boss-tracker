@@ -35,7 +35,7 @@ function BossPerLocation(locationObj) {
     const killedCount = bosses.filter(boss => boss.isKilled).length;
 
     return (
-        <div>
+        <div className="w-full">
             <h2 className="font-bold font-serif text-3xl text-center uppercase py-4">{locationObj.location}</h2>
             <p className="text-center mb-4">Bosses Killed: {killedCount} / {bosses.length}</p>
             <table className="table-auto my-0 mx-auto w-1/2 border border-black">

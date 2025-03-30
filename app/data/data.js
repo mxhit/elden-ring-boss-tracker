@@ -1,6 +1,5 @@
 import Boss from "./Boss";
 
-const BOSS_KILLED_STORAGE_KEY = "boss.killed.key";
 
 export const bosses = [
     {
